@@ -1,0 +1,108 @@
+.codes-detail {
+width: 100%;
+height: 593px;
+text-align: center;
+}
+.codes-detail img {
+width: 95%;
+height: 250px;
+margin-top: 5%;
+}
+
+.codes-detail a {
+
+width: 100%;
+height: 25px;
+line-height: 5px;
+position: relative;
+top: 90%;
+color: white;
+background-color: purple;
+padding: 5%;
+border-radius: 50px;
+text-decoration: none;
+font-weight: bold;
+
+}
+.label h3 {
+
+text-transform: uppercase;
+color: white;
+}
+
+.label p {
+ width: 95%;
+ height: 7vh;
+ margin: 3%;
+ color: white;
+}
+
+.techstacks {
+ display: flex;
+ gap: 1rem;
+ justify-content: center;
+}
+
+.points {
+ padding: 0.5rem;
+ font-size: 16px;
+ background-color: lightblue;
+ color: purple;
+ font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+.codes-detail {
+width: 100%;
+height: 723px;
+text-align: center;
+}
+
+.codes-detail img {
+width: 95%;
+height: 250px;
+
+}
+.codes-detail a {
+width: 100%;
+height: 25px;
+line-height: 5px;
+position: relative;
+top: 90%;
+color: white;
+background-color: purple;
+padding: 5%;
+border-radius: 50px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.label h3 {
+
+color: white;
+text-transform: uppercase;
+
+}
+
+.label p {
+ width: 100%;
+ height: 7vh;
+ margin-left: 0;
+
+}
+
+.techstacks {
+ display: flex;
+ gap: 1rem;
+ justify-content: center;
+ 
+}
+
+.points {
+ padding: 0.5rem;
+ font-size: 17px;
+ background-color: lightblue;
+ color: purple;
+ font-weight: bold;
+}
+}

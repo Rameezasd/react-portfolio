@@ -1,0 +1,85 @@
+.App {
+background-image: url("./net.jpg");
+}
+
+.cov {
+display: flex;
+flex-direction: column;
+text-align: center;
+animation-name: static;
+animation-duration: 57s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+z-index: 999;
+width: 100%;
+height: 25px;
+
+
+
+
+}
+
+@keyframes static {
+0% {
+transform: translate(0, 0);
+}
+20% {
+transform: translate(0, 500px);
+}
+40% {
+transform: translate(0, 1000px);
+}
+60% {
+transform: translate(0, 1500px);
+}
+80% {
+transform: translate(0, 2500px);
+}
+100% {
+transform: translate(0, 3700px);
+}
+}
+
+@media only screen and (max-width: 800px) {
+.App {
+background-image: url("./net.jpg");
+}
+
+.cov {
+display: flex;
+flex-direction: column;
+text-align: center;
+animation-name: static;
+animation-duration: 57s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in-out;
+z-index: 999;
+width: 100%;
+height: 25px;
+
+
+
+
+}
+
+@keyframes static {
+0% {
+transform: translate(0, 0);
+}
+20% {
+transform: translate(0, 500px);
+}
+40% {
+transform: translate(0, 1000px);
+}
+60% {
+transform: translate(0, 1500px);
+}
+80% {
+transform: translate(0, 2500px);
+}
+100% {
+transform: translate(0, 8250px);
+}
+}
+}
