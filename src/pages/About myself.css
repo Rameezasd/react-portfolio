@@ -1,0 +1,95 @@
+section#about {
+width: 100%;
+height: 837px;
+position: relative;
+margin: 0.6%;
+text-align: center;
+}
+
+section#about .Heading {
+width: 100%;
+height: 500px;
+line-height: 37px;
+
+}
+
+section#about .Heading h1 {
+font-weight: 800;
+font-size: 37px;
+text-transform: uppercase;
+color: white;
+}
+
+section#about .Heading p {
+text-align: justify;
+font-size: 20px;
+margin-top: 5%;
+margin-bottom: 3%;
+margin-left: 25%;
+margin-right: 25%;
+padding: 0.6%;
+color: white;
+}
+
+section#about .Heading button {
+font-size: 20px;
+border: 5px solid blue;
+border-radius: 25px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: green;
+
+}
+
+section#about .Heading button a {
+text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
+section#about {
+width: 100%;
+height: 950px;
+position: relative;
+
+
+
+}
+
+section#about .Heading {
+width: 100%;
+height: 700px;
+text-align: center;
+}
+
+section#about .Heading h1 {
+font-weight: 800;
+font-size: 20px;
+text-transform: uppercase;
+text-align: center;
+}
+
+section#about .Heading p {
+text-align: justify;
+margin: 8%;
+font-size: 17px;
+
+}
+
+section#about .Heading button {
+font-size: 20px;
+border: 5px solid black;
+border-radius: 25px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: green;
+
+}
+
+section#about .Heading button a {
+text-decoration: none;
+}
+}

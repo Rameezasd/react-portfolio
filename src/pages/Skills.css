@@ -1,0 +1,199 @@
+section#Skills {
+width: 100%;
+height: 175px;
+position: relative;
+top: -370px;
+bottom: 5px;
+}
+
+section#Skills .title h1 {
+font-size: 37px;
+font-weight: 800;
+text-transform: uppercase;
+margin-bottom: 5%;
+text-align: center;
+color: white;
+}
+
+section#Skills .gether {
+display: flex;
+}
+section#Skills .skill1 {
+width: 25%;
+height: 500px;
+margin-left: 3.7%;
+}
+
+section#Skills .skill1 h3 {
+margin-left: 59%;
+color: white;
+}
+
+section#Skills .skill1 p {
+text-align: Justify;
+margin-top: 9%;
+font-size: 20px;
+color: white;
+}
+
+section#Skills .skill1 img {
+width: 14%;
+height: 95px;
+position: absolute;
+margin-left: 0.5%;
+margin-right: 0.3%;
+}
+
+section#Skills .skill2 {
+width: 25%;
+height: 500px;
+margin-left: 8.5%;
+}
+
+section#Skills .skill2 h3 {
+margin-left: 50%;
+color: white;
+}
+
+section#Skills .skill2 img {
+width: 5%;
+height: 70px;
+position: absolute;
+margin-left: 6%;
+margin-right: 0.5%;
+}
+section#Skills .skill2 p {
+text-align: Justify;
+margin-top: 17%;
+font-size: 20px;
+color: white;
+}
+ 
+
+section#Skills .skill3 {
+width: 25%;
+height: 500px;
+margin-left: 8.5%;
+}
+
+section#Skills .skill3 h3 {
+margin-left: 50%;
+color: white;
+}
+
+section#Skills .skill3 p {
+text-align: Justify;
+margin-top: 16%;
+font-size: 20px;
+color: white;
+}
+
+section#Skills .skill3 img {
+width: 5%;
+height: 70px;
+position: absolute;
+margin-left: 5%;
+margin-right: 0.3%;
+}
+
+@media only screen and (max-width: 800px) {
+section#Skills {
+width: 100%;
+height: 970px;
+margin-bottom: 25%;
+}
+
+section#Skills .title h1 {
+font-size: 20px;
+font-weight: 800;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 17%;
+}
+
+section#Skills .gether {
+display: block;
+}
+
+section#Skills .skill1 {
+width: 100%;
+height: 325px;
+margin: 0;
+
+}
+
+section#Skills .skill1 h3 {
+width: 37%;
+height: 50px;
+font-size: 17px;
+}
+
+section#Skills .skill1 p {
+text-align: Justify;
+margin: 17% 8% 0 8%;
+font-size: 17px;
+}
+
+section#Skills .skill1 img {
+width: 50%;
+height: 95px;
+margin-left: 1%;
+}
+
+section#Skills .skill2 {
+width: 100%;
+height: 325px;
+margin: 0;
+}
+
+section#Skills .skill2 h3 {
+width: 50%;
+height: 75px;
+line-height: 75px;
+color: white;
+font-size: 17px;
+
+}
+
+section#Skills .skill2 img {
+width: 25%;
+height: 12vh;
+padding-left: 8%;
+}
+
+section#Skills .skill2 p {
+text-align: Justify;
+font-size: 17px;
+margin: 8%;
+}
+
+section#Skills .skill3 {
+width: 100%;
+height: 325px;
+margin: 0;
+}
+
+section#Skills .skill3 h3 {
+width: 50%;
+height: 75px;
+line-height: 50px;
+padding-top: 3%;
+padding-bottom: 0.3%;
+padding-left: 0;
+font-size: 17px;
+}
+
+
+
+section#Skills .skill3 p {
+text-align: Justify;
+font-size: 17px;
+margin: 8%;
+}
+
+section#Skills .skill3 img {
+width: 23%;
+height: 73px;
+padding-left: 8%;
+}
+}
